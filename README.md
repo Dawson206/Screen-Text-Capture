@@ -20,13 +20,13 @@ This application allows you to select a screen region, capture the selected area
 
 ## Installation and Usage
 
-1. Tesseract OCR Installation
+1. **Tesseract OCR Installation**
 
-For the application to function properly, you must have Tesseract OCR installed on your system. You can download it from the official page:
+      For the application to function properly, you must have Tesseract OCR installed on your system. You can download it from the official page:
 
-[Tesseract OCR Download](https://github.com/UB-Mannheim/tesseract/wiki)
+      [Tesseract OCR Download](https://github.com/UB-Mannheim/tesseract/wiki)
 
-Please follow the installation instructions provided on the page to set up Tesseract. Once installed, ensure that it is accessible from your system's `PATH`. 
+      Please follow the installation instructions provided on the page to set up Tesseract. Once installed, ensure that it is accessible from your system's `PATH`. 
 
 2. **Download the Executable**
    - Download the pre-packaged `.exe` from the releases section.
@@ -44,10 +44,3 @@ Please follow the installation instructions provided on the page to set up Tesse
 
 ---
 
-## License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-
----
-
-Let me know if you need any more adjustments!
