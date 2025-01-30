@@ -1,3 +1,5 @@
+import sys
+import os
 import customtkinter as ctk
 import pytesseract
 import pyperclip
@@ -6,7 +8,6 @@ import cv2
 import numpy as np
 from PIL import Image
 import tkinter as tk
-import os
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
@@ -85,8 +86,15 @@ app = ctk.CTk()
 app.title("Dawson's OCR Screen Text Capture")
 app.geometry("500x400")
 
-icon_path = r"\\dawson-server\home\Drive\Documents\Python\OCR image to text\mouse_selector.ico"
-app.iconbitmap(icon_path)
+if getattr(sys, 'frozen', False):
+    icon_path = os.path.join(sys._MEIPASS, 'mouse_selector.ico')
+else:
+    icon_path = r"\\dawson-server\home\Drive\Documents\Python\OCR image to text\mouse_selector.ico"
+
+if os.path.exists(icon_path):
+    app.iconbitmap(icon_path)
+else:
+    print(f"Warning: Icon file not found at {icon_path}")
 
 title_label = ctk.CTkLabel(app, text="Screen Text Capture", font=("Arial", 20))
 title_label.pack(pady=10)
