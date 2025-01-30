@@ -1,7 +1,7 @@
 ![mouse_selector](https://github.com/user-attachments/assets/237f42d0-70d1-4460-88c8-d0e5b92bee19)
 
 
-# OCR Image to Text Screen Capture
+# Dawson's Screen Text Capture
 
 This application allows you to select a screen region, capture the selected area, extract text from it using Optical Character Recognition (OCR), and copy the extracted text to the clipboard. The app features a graphical user interface (GUI) and leverages Tesseract OCR to perform the text extraction.
 
@@ -29,7 +29,7 @@ For the application to function properly, you must have Tesseract OCR installed 
 Please follow the installation instructions provided on the page to set up Tesseract. Once installed, ensure that it is accessible from your system's `PATH`. 
 
 2. **Download the Executable**
-   - Download the pre-packaged `.exe` from the releases section or from wherever it is available.
+   - Download the pre-packaged `.exe` from the releases section.
 
 3. **Run the Application**
    - Double-click the `.exe` file to launch the application.
