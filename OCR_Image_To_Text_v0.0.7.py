@@ -93,14 +93,14 @@ ctk.set_appearance_mode("Dark")
 ctk.set_default_color_theme("blue")
 
 app = ctk.CTk()
-app.title("Dawson's OCR Screen To Text")
+app.title("Dawson's OCR Screen Text Capture")
 app.geometry("500x400")
 
 # Set the window icon from the file path
 icon_path = r"\\dawson-server\home\Drive\Documents\Python\OCR image to text\mouse_selector.ico"
 app.iconbitmap(icon_path)  # Set the window icon
 
-title_label = ctk.CTkLabel(app, text="OCR Screen to Text Tool", font=("Arial", 20))
+title_label = ctk.CTkLabel(app, text="Screen Text Capture", font=("Arial", 20))
 title_label.pack(pady=10)
 
 capture_button = ctk.CTkButton(app, text="Select Screen Area", command=capture_and_extract_text)
