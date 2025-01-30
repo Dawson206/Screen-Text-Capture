@@ -18,7 +18,7 @@ This application allows you to select a screen region, capture the selected area
 
 ---
 
-## Installation and Useage
+## Installation and Usage
 
 1. Tesseract OCR Installation
 
